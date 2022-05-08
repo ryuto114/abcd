@@ -1,10 +1,4 @@
-ul, ol {
-    color: #1e366a;
-    border: dotted #1e366a 1px;/*ドット 色 太さ*/
-    padding: 0.5em 0.5em 0.5em 2em;
-  }
-  
-  ul li, ol li {
-    line-height: 1.5;
-    padding: 0.5em 0;
+h1 {
+    background: #c2edff;/*背景色*/
+    padding: 0.5em;/*文字まわり（上下左右）の余白*/
   }
