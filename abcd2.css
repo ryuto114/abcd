@@ -1,0 +1,6 @@
+@charset "utf-8";
+   li{
+    width:300px; 
+    margin:10px; 
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    }
