@@ -5,6 +5,14 @@
   <link rel="stylesheet" href="abcd.css">
   <link rel="stylesheet" href="abcd1.css">
   <link rel="stylesheet" href="abcd2.css">
+  <script> //時間表示
+    window.onload = function() {
+      setInterval(function() {
+        var dd = new Date();
+        document.getElementById("T1").innerHTML = dd.toLocaleString();
+      }, 1000);
+    }
+  </script>
  </head>
  <body>
  <h1><p><big><hr>日常に取り入れたいオススメ家電紹介</hr></big></p></h1> <hr></hr><br>
@@ -23,5 +31,13 @@
  ・ポータブル電源<br>
  ・ラジオ
  </ul>
+ <script type="text/javascript">//閉じる
+  if (history.length < 2) {
+    document.write("<a href='javascript:self.close()'>閉じる</a>");
+  } else {
+    document.write("<a href='javascript:history.back()'>戻る</a>");
+  }
+  </script>
+<div id="T1"></div>
  </body>
 </html>
